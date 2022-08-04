@@ -1,0 +1,175 @@
+ @charset "UTF-8";
+ 
+
+ 
+body {
+	background: linear-gradient(to bottom right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+	background-size: cover;
+	font-family: "Lato", san-serif;
+	font-size:small;
+}
+
+/* ---- Set up site grid ---- */
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "logo banner"
+        "nav_space nav"
+        "side main"
+        "footer footer";
+    grid-gap: 4px;
+}
+
+/* ---- End of grid setup ---- */
+
+
+#container{
+	width:768px;
+	border-right:2px solid #000;
+	border-right:1px solid #000;
+	position:relative;
+	background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+	margin: 5vw auto 0 auto;
+
+}
+
+#content {
+	background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+	margin:0;
+	padding:10px 38px 10px 20px;
+	width:508px;
+	border-right: 2px solid #e2e5b6;
+	float: right;	
+
+}
+#navigation {
+	margin:0;
+	padding: 10px 10px 10px 10px;
+	width: 180px;
+	height: 100%;
+	float: left;
+}
+
+/*
+#navigation h2{
+	color: #FF0000;
+	}	
+*/
+#footer {
+    clear:both;
+	padding:10px 20px;
+	margin:0;
+	color:#bbb;
+	font-size:85%;
+	font-weight:bold;
+	background: linear-gradient(to left, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+}
+h1{
+	background: url(images/TitleBackground.jpg) no-repeat top left;
+	margin: 0;
+	padding: 30px 60px 55px 40px;
+	font-family: "Lucida Grande", "Lucida Sana", "Trebuchet MS";
+	font-size: 250%;
+	font-weight: bold;
+	color: yellow;
+	}
+	
+	
+h2{
+	background: url(images/background.jpg) no-repeat top left;
+	margin: 18px 0 3px 0;
+	padding: 16px 0 3px 8px;
+	font-size: 115%;
+	font-weight: bold;
+	color: yellow;
+	border-bottom: 1px solid #DE7C29;
+	}
+	
+	
+h3{
+	margin: 10px 0 5px 0px;
+	font-size: 90%;
+	font-weight: bold;
+	color: yellow;
+	}
+
+p {
+    color: yellow;
+}
+
+li {
+    color: yellow;
+}
+
+.user_results {
+	background-color: #36d1d6;
+	border-radius: 10px;
+	border: 1px solid #000;
+	padding: 5px;
+}
+
+.user_results p {
+	color: #000;
+	font-size: small;
+	margin: 0;
+	padding: 0;
+}
+
+.user_results img {
+	float: none;
+	Background: none;
+	margin: 0 0 0 0;
+	padding: none;
+	border: none;
+	border-bottom-color: none;
+	border-right-color: none;
+}
+
+.results {
+	background-color: #f4ebe1;
+	border-radius: 10px;
+	border: 1px solid #000;
+	padding: 5px;
+}
+
+.results p {
+	color: #000;
+	font-size: small;
+	margin: 0;
+	padding: 0;
+}
+
+.results img {
+	float: none;
+	Background: none;
+	margin: 0 0 0 0;
+	padding: none;
+	border: none;
+	border-bottom-color: none;
+	border-right-color: none;
+}
+	
+img {
+	float: right;
+	Background:#fff;
+	margin: 70px 10px 0 15px;
+	padding: 5px;
+	border: 1px solid #d9e0e6;
+	border-bottom-color: #c8cdd2;
+	border-right-color: #c8cdd2;
+}
+	
+.noborder{
+	border:none;
+	margin:0 2px;
+	padding:0;
+}
+
+/* form formatting */
+.search {
+	width: 150px;
+	border-bottom: 1px solid #DE7C29;
+}
